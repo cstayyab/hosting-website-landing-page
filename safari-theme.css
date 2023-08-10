@@ -1,0 +1,84 @@
+/* Theming for Safari Browser -- Toggle Class "safari" on body */
+/* Only apply when .safari class is present on the body */
+.safari .navbar,
+.safari .hero-section,
+.safari .contact-section,
+.safari .footer {
+    background: linear-gradient(135deg, #1E87F0, #0A5DBE);
+    color: white;
+}
+
+.safari .contact-card .btn-primary {
+    background-color: #1E87F0;
+}
+
+.safari .contact-card .btn-primary:hover {
+    background-color: #0A5DBE;
+}
+
+.safari a:focus,
+.safari button:focus,
+.safari input:focus,
+.safari textarea:focus {
+    outline: 3px solid #1E87F0;
+}
+
+.safari .skip-link {
+    background: #1E87F0;
+    color: white;
+}
+
+.safari .btn-primary {
+    background-color: #1E87F0;
+    border-color: #0A5DBE;
+}
+
+.safari .btn-primary:hover {
+    background-color: #0A5DBE;
+}
+
+.safari .feature-icon {
+    color: #1E87F0;
+}
+
+.safari .accordion-button:not(.collapsed) {
+    background-color: #1E87F0;
+    color: white;
+}
+
+.safari .accordion-button:focus,
+.safari .accordion-button:hover {
+    background-color: #0A5DBE;
+    color: white;
+}
+
+.safari .card {
+    background: linear-gradient(135deg, #1E87F0, #0A5DBE);
+    color: white;
+}
+
+.safari .card-header,
+.safari .card-title,
+.safari .card-body ul li,
+.safari .spec-item h5,
+.safari .spec-item i {
+    color: white;
+}
+
+.safari .accordion-button.collapsed {
+    background-color: transparent;
+    color: #1E87F0;
+}
+
+.safari .spec-item {
+    background: #1E87F0;
+    border: 1px solid #0A5DBE;
+}
+
+.safari .spec-item:hover {
+    background: #0A5DBE;
+}
+
+.safari .spec-item ul li {
+    color: #e5e5e5;
+}

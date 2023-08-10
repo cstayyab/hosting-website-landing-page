@@ -1,0 +1,109 @@
+/* Theming for 14th August -- Toggle Class "august" on body */
+/* Only apply when .august class is present on the body */
+
+.august .navbar {
+    background: linear-gradient(135deg, #006600, #009900);
+}
+
+.august .hero-section {
+    background: linear-gradient(135deg, #006600, #009900);
+    color: white;
+}
+
+.august .contact-section {
+    background: linear-gradient(135deg, #006600, #009900);
+    color: white;
+}
+
+.august .contact-card .btn-primary {
+    background-color: #009900;
+}
+
+.august .contact-card .btn-primary:hover {
+    background-color: #007700;
+}
+
+.august .footer {
+    background: linear-gradient(135deg, #009900, #006600);
+    color: white;
+}
+
+.august a:focus,
+.august button:focus,
+.august input:focus,
+.august textarea:focus {
+    outline: 3px solid #009900;
+}
+
+.august .skip-link {
+    background: #009900;
+    color: white;
+}
+
+.august .btn-primary {
+    background-color: #009900;
+    border-color: #006600;
+}
+
+.august .btn-primary:hover {
+    background-color: #006600;
+}
+
+.august .feature-icon {
+    color: #009900;
+}
+
+.august .accordion-button:not(.collapsed) {
+    background-color: #009900;
+    color: white;
+}
+
+.august .accordion-button:focus,
+.august .accordion-button:hover {
+    background-color: #006600;
+    color: white;
+}
+
+.august .card {
+    background: linear-gradient(135deg, #006600, #009900);
+    color: white;
+}
+
+.august .card-header {
+    color: white;
+}
+
+.august .card-title {
+    color: white;
+}
+
+.august .card-body ul li {
+    color: #e5e5e5;
+}
+
+.august .accordion-button.collapsed {
+    background-color: transparent;
+    color: #009900;
+}
+
+.august .spec-item {
+    background: #006600;
+    color: white;
+    border: 1px solid #009900;
+}
+
+.august .spec-item:hover {
+    background: #009900;
+}
+
+.august .spec-item h5 {
+    color: #ffffff;
+}
+
+.august .spec-item i {
+    color: #ffffff;
+}
+
+.august .spec-item ul li {
+    color: #e5e5e5;
+}

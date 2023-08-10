@@ -1,0 +1,105 @@
+/* Theming for Age of Empires 2 -- Toggle Class "aoe2" on body */
+/* Only apply when .aoe2 class is present on the body */
+
+/* General Backgrounds and Text Colors */
+.aoe2 .navbar, 
+.aoe2 .hero-section, 
+.aoe2 .contact-section, 
+.aoe2 .footer {
+    background: #3B240B; /* Dark Brown */
+    color: #F2D9B6; /* Off White */
+}
+
+.aoe2 a, 
+.aoe2 .btn-primary {
+    color: #F2D9B6; /* Off White */
+    border-color: #D4A15D; /* Gold */
+    background-color: #804C25; /* Rustic Brown */
+}
+
+.aoe2 a:hover,
+.aoe2 .btn-primary:hover {
+    background-color: #D4A15D; /* Gold */
+    color: #3B240B; /* Dark Brown */
+}
+
+.aoe2 .skip-link {
+    background: #804C25; /* Rustic Brown */
+}
+
+/* Navbar */
+.aoe2 .navbar-brand, 
+.aoe2 .nav-link {
+    color: #D4A15D; /* Gold */
+}
+
+.aoe2 .nav-link:hover {
+    color: #F2D9B6; /* Off White */
+}
+
+/* Card Elements */
+.aoe2 .card {
+    background: #804C25; /* Rustic Brown */
+    color: #F2D9B6; /* Off White */
+}
+
+.aoe2 .card-header, 
+.aoe2 .card-title {
+    color: #D4A15D; /* Gold */
+}
+
+.aoe2 .feature-icon {
+    color: #D4A15D; /* Gold */
+}
+
+/* Accordion and Specification Items */
+.aoe2 .accordion-button:not(.collapsed) {
+    background-color: #D4A15D; /* Gold */
+    color: #3B240B; /* Dark Brown */
+}
+
+.aoe2 .accordion-button:focus, 
+.aoe2 .accordion-button:hover {
+    background-color: #F2D9B6; /* Off White */
+    color: #3B240B; /* Dark Brown */
+}
+
+.aoe2 .spec-item {
+    background: #804C25; /* Rustic Brown */
+    border: 1px solid #D4A15D; /* Gold */
+    color: #F2D9B6; /* Off White */
+}
+
+.aoe2 .spec-item:hover {
+    background: #D4A15D; /* Gold */
+}
+
+.aoe2 .spec-item h5, 
+.aoe2 .spec-item i {
+    color: #F2D9B6; /* Off White */
+}
+
+
+/* Enhanced Hero Section for AoE2 Theme */
+
+.aoe2 .hero-section {
+    background: linear-gradient(135deg, #3B240B, #804C25);
+    color: #F2EAD8; /* Lighter Off White for better visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+.aoe2 .hero-section h1 {
+    font-weight: bold;
+    color: #F9DDB4; /* Golden tint for the main title */
+}
+
+.aoe2 .hero-section .lead {
+    font-weight: 500;
+    color: #F2EAD8; /* Maintaining the Off White for subtext */
+}
+
+.aoe2 .hero-section .btn-primary {
+    padding: 10px 20px; /* Slightly larger button */
+    font-weight: bold;
+    border: 2px solid #D4A15D; /* Thicker border */
+}

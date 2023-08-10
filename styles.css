@@ -1,0 +1,262 @@
+/* Navbar (Header) */
+.navbar {
+  background: linear-gradient(135deg, #6dd5fa, #4fa6e7);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Positioning the GitHub button within the navbar */
+.github-btn {
+    position: absolute;
+    top: 5px;  /* Adjust as needed */
+    right: 20px;  /* Adjust as needed */
+    background-color: #24292e; /* GitHub color */
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.github-btn:hover {
+    background-color: #1b1f23; /* Slightly darker shade of GitHub color for hover effect */
+}
+
+/* Setting color and hover color for the GitHub button */
+.github-btn, 
+.github-btn:hover, 
+.github-btn:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Features Section */
+.features-section {
+  background: rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-icon {
+  font-size: 4rem;
+  color: #4fa6e7;
+  margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #6dd5fa, #4fa6e7);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before,
+.hero-section::after {
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.hero-section::before {
+  top: -50px;
+  left: -60px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.hero-section::after {
+  bottom: -40px;
+  right: -70px;
+  width: 250px;
+  height: 250px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+/* Hosting Plan Cards */
+.card {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.1)
+  );
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.card-body ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: 500;
+}
+
+.card-body ul li {
+  padding-bottom: 10px;
+}
+
+/* Technical Specifications Styling */
+.spec-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spec-item:hover {
+  transform: translateY(-5px);
+}
+
+.spec-item h5 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.spec-item ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.spec-item li {
+  padding: 5px 0;
+  font-weight: 500;
+}
+
+.contact-section {
+  background: linear-gradient(135deg, #6dd5fa, #4fa6e7);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card .form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.contact-card .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-card .btn-primary {
+  background-color: #4fa6e7;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.contact-card .btn-primary:hover {
+  background-color: #3a8ac1;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(135deg, #4fa6e7, #6dd5fa);
+  color: white;
+}
+
+/* Better visibility for text by increasing font weight */
+.nav-link,
+.navbar-brand,
+.footer {
+  font-weight: 600;
+}
+
+/* Focus Styles for Interactive Elements */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 3px solid #4fa6e7;
+  box-shadow: none;
+}
+
+/* Increase Font Size for Better Readability */
+h1,
+h3,
+h4,
+p {
+  font-weight: 500;
+}
+
+/* Skip to Main Content Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #4fa6e7;
+  color: white;
+  padding: 10px 20px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Testimonials Carousel Styles */
+#testimonialCarousel {
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+#testimonialCarousel .carousel-inner {
+  padding: 20px;
+}
+
+#testimonialCarousel .blockquote {
+  font-size: 1.2rem;
+}
+
+#testimonialCarousel .carousel-control-prev-icon,
+#testimonialCarousel .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+#testimonialCarousel .carousel-indicators {
+  bottom: -40px;
+}
+
+#testimonialCarousel .carousel-indicators li {
+  background-color: #6dd5fa;
+  border: none;
+}
+
+#testimonialCarousel .carousel-indicators .active {
+  background-color: #4fa6e7;
+}

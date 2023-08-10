@@ -1,0 +1,84 @@
+/* Theming for Opera Browser -- Toggle Class "opera" on body */
+/* Only apply when .opera class is present on the body */
+.opera .navbar,
+.opera .hero-section,
+.opera .contact-section,
+.opera .footer {
+    background: linear-gradient(135deg, #CC0F16, #9C0412);
+    color: white;
+}
+
+.opera .contact-card .btn-primary {
+    background-color: #CC0F16;
+}
+
+.opera .contact-card .btn-primary:hover {
+    background-color: #B00D14;
+}
+
+.opera a:focus,
+.opera button:focus,
+.opera input:focus,
+.opera textarea:focus {
+    outline: 3px solid #CC0F16;
+}
+
+.opera .skip-link {
+    background: #CC0F16;
+    color: white;
+}
+
+.opera .btn-primary {
+    background-color: #CC0F16;
+    border-color: #B00D14;
+}
+
+.opera .btn-primary:hover {
+    background-color: #B00D14;
+}
+
+.opera .feature-icon {
+    color: #CC0F16;
+}
+
+.opera .accordion-button:not(.collapsed) {
+    background-color: #CC0F16;
+    color: white;
+}
+
+.opera .accordion-button:focus,
+.opera .accordion-button:hover {
+    background-color: #B00D14;
+    color: white;
+}
+
+.opera .card {
+    background: linear-gradient(135deg, #CC0F16, #9C0412);
+    color: white;
+}
+
+.opera .card-header,
+.opera .card-title,
+.opera .card-body ul li,
+.opera .spec-item h5,
+.opera .spec-item i {
+    color: white;
+}
+
+.opera .accordion-button.collapsed {
+    background-color: transparent;
+    color: #CC0F16;
+}
+
+.opera .spec-item {
+    background: #CC0F16;
+    border: 1px solid #B00D14;
+}
+
+.opera .spec-item:hover {
+    background: #B00D14;
+}
+
+.opera .spec-item ul li {
+    color: #e5e5e5;
+}

@@ -1,0 +1,113 @@
+/* Theming for 14th August -- Toggle Class "pakistan" on body */
+/* Only apply when .pakistan class is present on the body */
+.pakistan .navbar {
+  background: linear-gradient(135deg, #006600, #009900);
+}
+
+.pakistan .hero-section {
+  background: linear-gradient(135deg, #006600, #009900);
+  color: white;
+}
+
+.pakistan .contact-section {
+  background: linear-gradient(135deg, #006600, #009900);
+  color: white;
+}
+
+.pakistan .contact-card .btn-primary {
+  background-color: #009900;
+}
+
+.pakistan .contact-card .btn-primary:hover {
+  background-color: #007700;
+}
+
+.pakistan .footer {
+  background: linear-gradient(135deg, #009900, #006600);
+  color: white;
+}
+
+.pakistan a:focus,
+.pakistan button:focus,
+.pakistan input:focus,
+.pakistan textarea:focus {
+  outline: 3px solid #009900;
+}
+
+.pakistan .skip-link {
+  background: #009900;
+  color: white;
+}
+
+/* Change color of buttons when .pakistan class is present on the body */
+.pakistan .btn-primary {
+  background-color: #009900;
+  border-color: #006600;
+}
+
+.pakistan .btn-primary:hover {
+  background-color: #006600;
+}
+
+/* Change color of feature icons */
+.pakistan .feature-icon {
+  color: #009900;
+}
+
+.pakistan .accordion-button:not(.collapsed) {
+  background-color: #009900;
+  color: white;
+}
+
+.pakistan .accordion-button:focus,
+.pakistan .accordion-button:hover {
+  background-color: #006600;
+  color: white;
+}
+
+.pakistan .card {
+  background: linear-gradient(135deg, #006600, #009900);
+  color: white;
+}
+
+.pakistan .card-header {
+  color: white;
+}
+
+.pakistan .card-title {
+  color: white;
+}
+
+.pakistan .card-body ul li {
+  color: #e5e5e5;
+}
+
+/* Change color of accordion button when it's collapsed */
+.pakistan .accordion-button.collapsed {
+  background-color: transparent;
+  color: #009900;
+}
+
+.pakistan .spec-item {
+  background: #006600;
+  color: white;
+  border: 1px solid #009900;
+}
+
+.pakistan .spec-item:hover {
+  background: #009900;
+}
+
+.pakistan .spec-item h5 {
+  color: #ffffff;
+}
+
+.pakistan .spec-item i {
+  color: #ffffff;
+}
+
+.pakistan .spec-item ul li {
+  color: #e5e5e5;
+}
+
+/* Pakistan Theme End */

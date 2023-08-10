@@ -1,0 +1,84 @@
+/* Theming for Brave Browser -- Toggle Class "brave" on body */
+/* Only apply when .brave class is present on the body */
+.brave .navbar,
+.brave .hero-section,
+.brave .contact-section,
+.brave .footer {
+    background: linear-gradient(135deg, #4C54D2, #FF5501);
+    color: white;
+}
+
+.brave .contact-card .btn-primary {
+    background-color: #4C54D2;
+}
+
+.brave .contact-card .btn-primary:hover {
+    background-color: #3B43C9;
+}
+
+.brave a:focus,
+.brave button:focus,
+.brave input:focus,
+.brave textarea:focus {
+    outline: 3px solid #4C54D2;
+}
+
+.brave .skip-link {
+    background: #4C54D2;
+    color: white;
+}
+
+.brave .btn-primary {
+    background-color: #4C54D2;
+    border-color: #3B43C9;
+}
+
+.brave .btn-primary:hover {
+    background-color: #3B43C9;
+}
+
+.brave .feature-icon {
+    color: #4C54D2;
+}
+
+.brave .accordion-button:not(.collapsed) {
+    background-color: #4C54D2;
+    color: white;
+}
+
+.brave .accordion-button:focus,
+.brave .accordion-button:hover {
+    background-color: #3B43C9;
+    color: white;
+}
+
+.brave .card {
+    background: linear-gradient(135deg, #4C54D2, #FF5501);
+    color: white;
+}
+
+.brave .card-header,
+.brave .card-title,
+.brave .card-body ul li,
+.brave .spec-item h5,
+.brave .spec-item i {
+    color: white;
+}
+
+.brave .accordion-button.collapsed {
+    background-color: transparent;
+    color: #4C54D2;
+}
+
+.brave .spec-item {
+    background: #4C54D2;
+    border: 1px solid #3B43C9;
+}
+
+.brave .spec-item:hover {
+    background: #3B43C9;
+}
+
+.brave .spec-item ul li {
+    color: #e5e5e5;
+}

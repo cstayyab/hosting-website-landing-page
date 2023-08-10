@@ -1,0 +1,84 @@
+/* Theming for Firefox Browser -- Toggle Class "firefox" on body */
+/* Only apply when .firefox class is present on the body */
+.firefox .navbar,
+.firefox .hero-section,
+.firefox .contact-section,
+.firefox .footer {
+    background: linear-gradient(135deg, #FF9500, #FF2B2B);
+    color: white;
+}
+
+.firefox .contact-card .btn-primary {
+    background-color: #FF9500;
+}
+
+.firefox .contact-card .btn-primary:hover {
+    background-color: #E88400;
+}
+
+.firefox a:focus,
+.firefox button:focus,
+.firefox input:focus,
+.firefox textarea:focus {
+    outline: 3px solid #FF9500;
+}
+
+.firefox .skip-link {
+    background: #FF9500;
+    color: white;
+}
+
+.firefox .btn-primary {
+    background-color: #FF9500;
+    border-color: #E88400;
+}
+
+.firefox .btn-primary:hover {
+    background-color: #E88400;
+}
+
+.firefox .feature-icon {
+    color: #FF9500;
+}
+
+.firefox .accordion-button:not(.collapsed) {
+    background-color: #FF9500;
+    color: white;
+}
+
+.firefox .accordion-button:focus,
+.firefox .accordion-button:hover {
+    background-color: #E88400;
+    color: white;
+}
+
+.firefox .card {
+    background: linear-gradient(135deg, #FF9500, #FF2B2B);
+    color: white;
+}
+
+.firefox .card-header,
+.firefox .card-title,
+.firefox .card-body ul li,
+.firefox .spec-item h5,
+.firefox .spec-item i {
+    color: white;
+}
+
+.firefox .accordion-button.collapsed {
+    background-color: transparent;
+    color: #FF9500;
+}
+
+.firefox .spec-item {
+    background: #FF9500;
+    border: 1px solid #E88400;
+}
+
+.firefox .spec-item:hover {
+    background: #E88400;
+}
+
+.firefox .spec-item ul li {
+    color: #e5e5e5;
+}

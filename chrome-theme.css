@@ -1,0 +1,84 @@
+/* Theming for Chrome Browser -- Toggle Class "chrome" on body */
+/* Only apply when .chrome class is present on the body */
+.chrome .navbar,
+.chrome .hero-section,
+.chrome .contact-section,
+.chrome .footer {
+    background: linear-gradient(135deg, #4285F4, #EA4335);
+    color: white;
+}
+
+.chrome .contact-card .btn-primary {
+    background-color: #4285F4;
+}
+
+.chrome .contact-card .btn-primary:hover {
+    background-color: #357ABD;
+}
+
+.chrome a:focus,
+.chrome button:focus,
+.chrome input:focus,
+.chrome textarea:focus {
+    outline: 3px solid #4285F4;
+}
+
+.chrome .skip-link {
+    background: #4285F4;
+    color: white;
+}
+
+.chrome .btn-primary {
+    background-color: #4285F4;
+    border-color: #357ABD;
+}
+
+.chrome .btn-primary:hover {
+    background-color: #357ABD;
+}
+
+.chrome .feature-icon {
+    color: #4285F4;
+}
+
+.chrome .accordion-button:not(.collapsed) {
+    background-color: #4285F4;
+    color: white;
+}
+
+.chrome .accordion-button:focus,
+.chrome .accordion-button:hover {
+    background-color: #357ABD;
+    color: white;
+}
+
+.chrome .card {
+    background: linear-gradient(135deg, #4285F4, #EA4335);
+    color: white;
+}
+
+.chrome .card-header,
+.chrome .card-title,
+.chrome .card-body ul li,
+.chrome .spec-item h5,
+.chrome .spec-item i {
+    color: white;
+}
+
+.chrome .accordion-button.collapsed {
+    background-color: transparent;
+    color: #4285F4;
+}
+
+.chrome .spec-item {
+    background: #4285F4;
+    border: 1px solid #357ABD;
+}
+
+.chrome .spec-item:hover {
+    background: #357ABD;
+}
+
+.chrome .spec-item ul li {
+    color: #e5e5e5;
+}
